@@ -13,13 +13,11 @@ public class TextControl : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        if (Input.GetKeyDown("space"))
-        {
+        if (Input.GetKeyDown("space")){
             newText.text = "Hello, my name is Nick Hennessy!";
         }
 
-        if (Input.GetKey("escape"))
-        {
+        if (Input.GetKey("escape")){
             Application.Quit();
         }
     }
